@@ -31,8 +31,6 @@ A aplicação utiliza uma arquitetura serverless baseada em eventos.
 
 **Fluxo do relatório semanal:**
 
-**Fluxo do relatório semanal:**
-
 1. A Azure Function `relatorioSemanalTimer` é executada automaticamente às segundas-feiras, às 12h UTC (9h em São Paulo).
 2. O `RelatorioService` consulta as avaliações da semana anterior no Azure Cosmos DB.
 3. O sistema calcula o total de avaliações, a média das notas, a quantidade por dia e a quantidade por urgência.
